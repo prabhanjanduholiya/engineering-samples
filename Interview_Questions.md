@@ -1,5 +1,13 @@
 # Architecture
+# Cloud
 
+* What is scalibility?
+  - Vertical Scaling (Increasing the capacity of existing servers)
+  - Horizontal Scaling (Replicating more servers)
+
+* How to achieve high availivity?
+  - By replicating servers in acrosss multiple availibilty zones.
+    
 # AWS 
 
 ## AWS EC2
