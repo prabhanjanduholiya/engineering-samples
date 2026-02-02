@@ -1,4 +1,4 @@
-# Azure Cosmos DB Fundamentals — Developer & Architect Guide
+# Azure Cosmos DB Fundamentals â€” Developer & Architect Guide
 
 This document is a compact tutorial for developers and architects working with Azure Cosmos DB. It covers core fundamentals, components, recommended architectures, operational guidance, and interview questions with concise model answers.
 
@@ -19,11 +19,11 @@ This document is a compact tutorial for developers and architects working with A
 - Throughput (RUs): Request Units/sec is the currency for throughput; operations consume RUs based on cost.
 - Consistency Levels: Strong, Bounded staleness, Session (default), Consistent prefix, Eventual.
 - Indexing: Automatic and policy-driven; can be tuned per container for performance and cost.
-- Change Feed: Ordered feed of item changes for a container — useful for event-driven patterns and ETL.
+- Change Feed: Ordered feed of item changes for a container â€” useful for event-driven patterns and ETL.
 
 ---
 
-## Developer perspective — getting started
+## Developer perspective â€” getting started
 1) Choose API: SQL/Core (document) for native Cosmos JSON features; MongoDB API if migrating apps that use Mongo drivers; Cassandra API for wide-column; Gremlin for graph; Table for Azure Table compatibility.
 2) Create account & container: pick partition key and throughput model (provisioned RUs or serverless).
 3) Use SDK: official SDKs available for .NET, Java, Python, JavaScript, Go.
@@ -125,6 +125,13 @@ Developer tips:
 - Enable encryption at rest and consider customer-managed keys for extra control.
 
 ---
+ 
+## What types of databases are supported in Cosmos Db?
+* Core Sql database
+* Azure cosmos db for Mongo Db
+* Cassendra database
+* Azure table
+* Gremlin (Graph)
 
 ## Interview questions & model answers (concise)
 1) What is Azure Cosmos DB and when would you use it?
