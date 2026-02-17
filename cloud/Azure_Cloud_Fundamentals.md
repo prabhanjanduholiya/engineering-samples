@@ -90,3 +90,41 @@ As per need you can scale up your database size or sometimes it is also offered 
 - Economies of scale is ability to do things more effeciently or at lower cost per unit when operating at large scale.
 - Big cloud providers like Microsoft, Amzon, Google has big business leveraging the benefits of economies of scale so these providers can pass these savings to clients.
 - Cloud providers can deal with government and definitly that benefit passes to client.
+
+
+**Regions:**
+
+How to select a region? 
+* Closer to audience
+* Availability of services, not all services are available
+* Basis availability zones (An availability zone means a region has more than one physical data centers that helps in data redundancy within region)
+* Pricing: Sometimes prices differ based on regions.
+
+**SLA (Service level agreements)** 
+
+* Uptime percentage of services
+* SLA differs basis pricing tiers of resources.
+
+**Resource Groups:**
+
+Logical group for all services.
+
+**Management Groups, Subscriptions, Resource Groups: **
+
+
+<img width="433" height="281" alt="image" src="https://github.com/user-attachments/assets/4152adbd-16c8-479f-9719-8af95026510a" />
+
+Subscriptions - are associated based on associated account or cost centers.
+
+Management Groups -  are place to manage all subscriptions. If an organization has multiple subscriptions then they will be managed by management groups.
+
+**Pricing Models in Azure:**
+
+* Per resource
+* Consumption Plans
+* Upfront cost models (Reservation models)
+
+**Budgets Azure:**
+
+* Set budgets 
+* Create alerts
